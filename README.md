@@ -5,7 +5,7 @@ Billing Subscription in Rails using Stripe
 
 Based from [Railscasts](http://railscasts.com/) episode [Billing with Stripe](http://railscasts.com/episodes/288-billing-with-stripe)
 
-1.  Create [Stripl plans](https://manage.stripe.com/test/plans) based from db seeds
+1.  Create [Stripe plans](https://manage.stripe.com/test/plans) based from db seeds
 
         id: 1
         name: "Never Been Kissed"
@@ -23,4 +23,4 @@ Based from [Railscasts](http://railscasts.com/) episode [Billing with Stripe](ht
         name: "I'm in Heaven"
         monthly: 99
 
-2. Enter secret and publishable key in config\initializers\stripe.rb
+2. Enter secret and publishable key in [config\initializers\stripe.rb](https://github.com/michaellouieloria/stripe-rails/blob/master/config/initializers/stripe.rb)
