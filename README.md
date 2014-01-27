@@ -5,7 +5,7 @@ Billing Subscription in Rails using Stripe
 
 Based from [Railscasts](http://railscasts.com/) episode [Billing with Stripe](http://railscasts.com/episodes/288-billing-with-stripe)
 
-1.  Create [Stripe plans](https://manage.stripe.com/test/plans) based from db seeds
+1.  Create [Stripe plans](https://manage.stripe.com/test/plans) based from [db seeds](https://github.com/michaellouieloria/stripe-rails/blob/master/db/seeds.rb)
 
         id: 1
         name: "Never Been Kissed"
